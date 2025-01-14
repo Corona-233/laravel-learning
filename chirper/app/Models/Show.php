@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Show extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'message',
+        'name',
+        'sex',
+        'outlook',
+        'classs',
+        'ethnic',
+        'duty',
+        'phone',
+        'hobby',
+        'synopsis',
+        'assumption',
+    ];
+}
